@@ -61,7 +61,8 @@
   "scripts": {
         "gulp": "gulp",
         "minify": "gulp minify",
-        "start": "open index.html"
+        "start": "open index.html",
+        "postinstall": "gulp default"
     },
   "title": "Creative",
   "version": "4.0.0-alpha"
