@@ -58,6 +58,11 @@
     "type": "git",
     "url": "git+https://github.com/BlackrockDigital/startbootstrap-creative.git"
   },
+  "scripts": {
+        "gulp": "gulp",
+        "minify": "gulp minify",
+        "start": "open index.html"
+    },
   "title": "Creative",
   "version": "4.0.0-alpha"
 }
