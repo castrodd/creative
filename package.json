@@ -29,10 +29,26 @@
   "bugs": {
     "url": "https://github.com/BlackrockDigital/startbootstrap-creative/issues"
   },
-  "bundleDependencies": false,
+  "bundleDependencies": true,
   "deprecated": false,
   "description": "[Creative](http://startbootstrap.com/template-overviews/creative/) is a one page creative theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).",
   "devDependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "browser-sync": "^2.18.13",
+    "font-awesome": "^4.6.3",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.10",
+    "gulp-header": "^1.8.7",
+    "gulp-less": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^1.5.4",
+    "jquery": "^3.1.1",
+    "magnific-popup": "^1.1.0",
+    "scrollreveal": "^3.1.4",
+    "tether": "^1.4.0"
+  },
+  "dependencies": {
     "bootstrap": "^4.0.0-alpha.6",
     "browser-sync": "^2.18.13",
     "font-awesome": "^4.6.3",
