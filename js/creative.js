@@ -22,13 +22,13 @@
     });
 
     // jQuery to collapse the navbar on scroll
-    // $(window).scroll(function() {
-    //     if ($("#mainNav").offset().top > 100) {
-    //         $("#mainNav").addClass("navbar-shrink");
-    //     } else {
-    //         $("#mainNav").removeClass("navbar-shrink");
-    //     }
-    // });
+    $(window).scroll(function() {
+        if ($("#mainNav").offset().top > 100) {
+            $("#mainNav").addClass("navbar-shrink");
+        } else {
+            $("#mainNav").removeClass("navbar-shrink");
+        }
+    });
 
     // Initialize and Configure Scroll Reveal Animation
     window.sr = ScrollReveal();
